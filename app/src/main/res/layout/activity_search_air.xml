@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchAir">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            >
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/bgAnim"
+                android:layout_width="398dp"
+                android:layout_height="230dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/air"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/usbang"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Us Bangla Airlines"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/BimanBangla"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Biman bangladesh airlines"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/emirates"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="emirates"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/quter"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Qutar airways"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/airindia"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Air India"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/flydubai"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Fly dubai"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         android:layout_marginTop="20dp">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:background="@color/royalblue"
+                tools:ignore="MissingConstraints"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Helicopter"
+                android:textAllCaps="true"
+                android:textColor="@color/redda"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.555"
+                tools:ignore="MissingConstraints" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_marginTop="20dp">
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/saa"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="South Asian Airlines Limited"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

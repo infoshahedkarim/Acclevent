@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_browser.xml" value="0.22008547008547008" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_contact_us.xml" value="0.22008547008547008" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_createaccount.xml" value="0.22008547008547008" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_home_page.xml" value="0.22008547008547008" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_login.xml" value="0.22008547008547008" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_search_air.xml" value="0.10756056808688387" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_search_bus.xml" value="0.10756056808688387" />
+        <entry key="..\:/2.2/_androidfinal/AccleventThirtyP/app/src/main/res/layout/activity_terms_and_co.xml" value="0.2056159420289855" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/ic_bus_24.xml" value="0.197" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/ic_home_24.xml" value="0.197" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/ic_launch_24.xml" value="0.197" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/ic_terms.xml" value="0.1935" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/ic_train_24.xml" value="0.1935" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/drawable/image_rounded.xml" value="0.1565" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_browser.xml" value="0.2056159420289855" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_contact_us.xml" value="0.75" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_createaccount.xml" value="0.18" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_dashboard_bus_owner.xml" value="0.22" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_forget_pass_page.xml" value="0.254981884057971" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_login_bus_ower.xml" value="0.22402736212056434" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_navigation.xml" value="0.23777173913043478" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_owner_add_service.xml" value="0.33" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_owner_update_service.xml" value="0.21248396750748183" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_search_air.xml" value="0.2056159420289855" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_search_bus.xml" value="0.33" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_search_ship.xml" value="0.2056159420289855" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_search_train.xml" value="0.2056159420289855" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_terms_and_co.xml" value="0.3284438775510204" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/activity_user_profile.xml" value="0.33" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/fragment_date_picker.xml" value="0.1" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/fragment_home.xml" value="0.12" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/layout/nav_header.xml" value="0.23777173913043478" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/menu/nav_homepage.xml" value="0.22402736212056434" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/menu/nav_menu.xml" value="0.22402736212056434" />
+        <entry key="..\:/AccleventThirtyP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

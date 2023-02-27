@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchBus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+
+           android:layout_height="match_parent"
+           android:layout_marginTop="25dp"
+           >
+
+           <com.airbnb.lottie.LottieAnimationView
+               android:id="@+id/bgAnim"
+               android:layout_width="398dp"
+               android:layout_height="230dp"
+
+               android:layout_alignParentBottom="true"
+               android:layout_gravity="center"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintHorizontal_bias="0.6"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="1.0"
+               app:lottie_autoPlay="true"
+               app:lottie_rawRes="@raw/bus"
+               tools:ignore="MissingConstraints" />
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/hanif"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Hanif Enterprise"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/shymoli"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="335dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            android:text="Shymoli paribahon"
+            android:fontFamily="@font/unisansheavy"
+            android:textColor="@color/royalblue"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/greenline"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Green line"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/shohag"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Shohagh paribahon"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/grameen"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="Grameen travels"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/trtravel"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="TR Travel"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/sb"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="335dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:text="SB paribahon"
+                android:fontFamily="@font/unisansheavy"
+                android:textColor="@color/royalblue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/shohoz"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="169dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/unisansheavy"
+                android:text="Go to shohoz.com"
+                android:textColor="@color/royalblue"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.133"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/busbd"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="169dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/unisansheavy"
+                android:text="Go to BusBD.com"
+                android:textColor="@color/royalblue"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.888"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
